@@ -30,7 +30,7 @@ ENV APP_VERSION=$VERSION
 # Budujemy aplikację (kompilacja TypeScript do JavaScript)
 RUN pnpm build
 
-# Otwieramy port 3000, na którym będzie działać aplikacja
+# Dokumentujemy port 3000, na którym będzie działać aplikacja
 EXPOSE 3000
 
 # Uruchamiamy aplikację po starcie kontenera
