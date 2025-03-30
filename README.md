@@ -75,7 +75,7 @@ Jeśli aplikacja działa poprawnie, powinieneś otrzymać odpowiedź JSON
 
 ### Wynik działania aplikacji
 
-![Image](wynik_1.png)
+![Image](screenshots/wynik_1.png)
 
 ---
 
@@ -159,4 +159,4 @@ Jeśli aplikacja działa poprawnie, powinieneś otrzymać odpowiedź JSON
 
 ## **Wynik działania aplikacji**
 
-![Image](wynik_2.png)
+![Image](screenshots/wynik_2.png)
