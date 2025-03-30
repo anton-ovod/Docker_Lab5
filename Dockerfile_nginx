@@ -22,12 +22,6 @@ RUN pnpm install
 # Kopiujemy kod źródłowy aplikacji do katalogu roboczego
 COPY src ./src 
 
-# Tworzymy zmienną ARG dla wersji aplikacji, domyślnie ustawioną na "1.0.0"
-ARG VERSION="1.0.0"
-
-# Przekazujemy wartość ARG do zmiennej środowiskowej ENV, aby była dostępna w kontenerze
-ENV APP_VERSION=$VERSION
-
 # Budujemy aplikację (kompilacja TypeScript do JavaScript)
 RUN pnpm build
 
