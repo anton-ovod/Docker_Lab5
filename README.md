@@ -93,7 +93,7 @@ Aby zbudować obraz z reverse proxy, użyj następującego polecenia:
 docker build --build-arg VERSION=2.0.1 -f Dockerfile_nginx -t my-nginx-backend-app .
 ```
 
-## Wynik polecenia:
+## Wynik polecenia build:
 
 ```bash
 [+] Building 1.2s (17/17) FINISHED docker:desktop-linux
